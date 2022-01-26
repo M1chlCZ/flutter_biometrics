@@ -29,6 +29,8 @@ public class SwiftFlutterBiometricsPlugin: NSObject, FlutterPlugin {
                 return "TouchID"
             case .faceID:
                 return "FaceID"
+            default:
+                return "nothing"
             }
      }
   }
